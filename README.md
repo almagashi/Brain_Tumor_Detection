@@ -12,6 +12,9 @@ The data had to be manipulated to achieve class balance by undersampling.
 
 To avoid overfitting, I used cross-validation in binary classification, and modified the layers in the neural network; as well as augmented the images with ImageGenerator.
 
+![image](https://user-images.githubusercontent.com/41328970/116011368-7dae6700-a5d9-11eb-9f47-e2bcde8d7a9b.png)
+
+
 We first use binary classification (Each tumor vs Healthy brains), by using these methods:
 
 * Binary classification:
