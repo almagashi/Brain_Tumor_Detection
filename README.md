@@ -4,7 +4,7 @@ To learn more about tumors, please check the _Brain_Tumor.pdf_ file, where I ana
 
 This project contains multiple classification models for brain tumor detection.
 The data set contains images of healthy brains and tumor brains with glioma, meningioma and pituitary tumors.
-![image](https://user-images.githubusercontent.com/41328970/116011302-23ada180-a5d9-11eb-88f9-454847b9cd4a.png)
+![image](https://user-images.githubusercontent.com/41328970/116011333-4d66c880-a5d9-11eb-8085-9d768764a205.png)
 
 # Data Manipulation and Algorithms
 The data had to be manipulated to achieve class balance by undersampling.
