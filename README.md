@@ -40,3 +40,5 @@ Meningioma vs Healthy - False Positives/Negatives (Logistic Regression/SVM - sam
 Pituitary vs Healthy - False Positives/Negatives (Logistic Regression):
 
 ![image](https://user-images.githubusercontent.com/41328970/116010637-11316900-a5d5-11eb-9f2f-c025c27b4b96.png)
+
+While the multi-class classification requires more intervention to classify better, we see that logistic regression and support vector machines tend to do best at classifying.
