@@ -28,6 +28,8 @@ Meningioma vs Healthy | Support Vector Machines and Logistic Regression| ~85  |
 Glioma vs Healthy | Logistic Regression | ~96%  |
 Multi-class| Neural Networks - Sequential | ~65%  |
 
+While the multi-class classification requires more intervention to classify better, we see that logistic regression and support vector machines tend to do best at classifying. The rates of false positives is more prevalent than false negatives, which in the context of tumors, it is better than the other way around. However, both false negatives and positives are detrimental for people with tumors. Let's take a look at all these False Positives/False Negatives.
+
 Glioma vs Healthy - False Positives/Negatives (Support Vector Machines):
 
 ![image](https://user-images.githubusercontent.com/41328970/116010690-63728a00-a5d5-11eb-9c59-995d247fcd06.png)
@@ -41,4 +43,3 @@ Pituitary vs Healthy - False Positives/Negatives (Logistic Regression):
 
 ![image](https://user-images.githubusercontent.com/41328970/116010637-11316900-a5d5-11eb-9f2f-c025c27b4b96.png)
 
-While the multi-class classification requires more intervention to classify better, we see that logistic regression and support vector machines tend to do best at classifying. The rates of false negatives is more prevalent which is concerning when it comes to tumors.
