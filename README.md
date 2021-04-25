@@ -5,7 +5,7 @@ This project contains multiple classification models for brain tumor detection.
 The data set contains images of healthy brains and tumor brains with glioma, meningioma and pituitary tumors.
 The data had to be manipulated to achieve class balance by undersampling.
 
-To avoid overfitting, I used cross-validation and modified the layers in the neural network; as well as augmented the images with ImageGenerator.
+To avoid overfitting, I used cross-validation in binary classification, and modified the layers in the neural network; as well as augmented the images with ImageGenerator.
 
 We first use binary classification (Each tumor vs Healthy brains), by using these methods:
 
