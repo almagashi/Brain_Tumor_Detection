@@ -1,5 +1,6 @@
 # Brain Tumor Detection - Visualization
 
+To learn more about tumors, please check the _Brain_Tumor.pdf_ file, where I analyze holistically the neuroscience behind tumors.
 
 This project contains multiple classification models for brain tumor detection.
 The data set contains images of healthy brains and tumor brains with glioma, meningioma and pituitary tumors.
