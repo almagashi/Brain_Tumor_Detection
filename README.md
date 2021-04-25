@@ -18,7 +18,7 @@ Then, we use neural networks for multiclass-classification (Tell which class a t
 When classifying tumors, we need the accuracy to be high, and the false positives/negatives to be low.
 Thus, we observe these metrics across classifications.
 
-Classes           | Best classification     | Result |
+Classes           | Best classification method  | Accuracy |
 -------------     | -------------           | -------|
 Glioma vs Healthy | Support Vector Machines | ~91% |
 Meningioma vs Healthy | Support Vector Machines and Logistic Regression| ~85  |
