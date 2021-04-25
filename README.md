@@ -4,6 +4,9 @@ To learn more about tumors, please check the _Brain_Tumor.pdf_ file, where I ana
 
 This project contains multiple classification models for brain tumor detection.
 The data set contains images of healthy brains and tumor brains with glioma, meningioma and pituitary tumors.
+![image](https://user-images.githubusercontent.com/41328970/116011302-23ada180-a5d9-11eb-88f9-454847b9cd4a.png)
+
+# Data Manipulation and Algorithms
 The data had to be manipulated to achieve class balance by undersampling.
 
 To avoid overfitting, I used cross-validation in binary classification, and modified the layers in the neural network; as well as augmented the images with ImageGenerator.
@@ -17,6 +20,8 @@ We first use binary classification (Each tumor vs Healthy brains), by using thes
                                                         
 
 Then, we use neural networks for multiclass-classification (Tell which class a tumor belongs to).
+
+# Metrics of performance
 
 When classifying tumors, we need the accuracy to be high, and the false positives/negatives to be low.
 Thus, we observe these metrics across classifications.
