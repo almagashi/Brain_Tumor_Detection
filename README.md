@@ -33,8 +33,8 @@ Thus, we observe these metrics across classifications.
 Classes           | Best classification method  | Accuracy |
 -------------     | -------------           | -------|
 Glioma vs Healthy | Support Vector Machines | ~91% |
-Meningioma vs Healthy | Support Vector Machines and Logistic Regression| ~85  |
-Glioma vs Healthy | Logistic Regression | ~96%  |
+Meningioma vs Healthy | Support Vector Machines and Logistic Regression| ~85%  |
+Pituitary vs Healthy | Logistic Regression | ~96%  |
 Multi-class| Neural Networks - Sequential | ~65%  |
 
 While the multi-class classification requires more intervention to classify better, we see that logistic regression and support vector machines tend to do best at classifying. The rates of false positives is more prevalent than false negatives, which in the context of tumors, it is better than the other way around. However, both false negatives and positives are detrimental for people with tumors. Let's take a look at all these False Positives/False Negatives.
